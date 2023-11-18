@@ -1,6 +1,6 @@
 
 '''
-Refer Running this code in Jupyter Notebook
+prefer Running this code in Jupyter Notebook
 I'm Running in Pycharm becaue my kernal is dead unexpectedly
 I Don't Know How to solve this Issue
 '''
