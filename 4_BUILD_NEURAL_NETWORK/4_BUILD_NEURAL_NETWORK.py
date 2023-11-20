@@ -62,3 +62,32 @@ res = sigmoid_func(result)
 
 print("\nFinal Output\n")
 print(res)
+
+
+# After adding changes on 20/11/2023 for redcuing the no lines in the code
+
+# from keras.models import Sequential
+# from keras.layers import Dense
+# import numpy as np
+
+# input_value = np.array([[0, 0], [0, 1], [1, 1], [1, 0]])
+# output_value = np.array([0, 1, 1, 0])
+
+# model = Sequential()
+# model.add(Dense(100, input_dim=2, activation='relu'))
+# model.add(Dense(50, activation='relu'))
+# model.add(Dense(1, activation='sigmoid'))
+
+# model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# model.fit(input_value, output_value, epochs=1000, batch_size=4, verbose=0)
+
+# # Evaluate the model
+# loss, accuracy = model.evaluate(input_value, output_value, verbose=0)
+# print(f"Accuracy: {accuracy}")
+
+# # Prediction
+# pred = np.array([[0, 1]])  # Predict for input [0, 1]
+# result = model.predict(pred)
+# print("\nFinal Output\n")
+# print(result)
