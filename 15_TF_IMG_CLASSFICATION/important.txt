@@ -1,1 +1,4 @@
+GPU required or else you have wait for ages to run
+Don't even try to run without GPU
 
+USe Google Colab + T4 GPU
